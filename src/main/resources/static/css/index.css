@@ -1,0 +1,12 @@
+body {
+    background: #696969;
+}
+
+.js-clock {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.js-login {
+    text-align: center;
+}
