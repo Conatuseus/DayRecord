@@ -1,5 +1,9 @@
 body {
-    background: #696969;
+    background-color: #696969;
+}
+
+h1 {
+    float: left;
 }
 
 .js-clock {
@@ -8,5 +12,12 @@ body {
 }
 
 .js-login {
-    text-align: center;
+    float: right;
+}
+
+.js-header {
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
