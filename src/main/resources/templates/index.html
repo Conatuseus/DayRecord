@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="kr">
-    <head>
-        <meta charset="utf-8">
-        <title>📝Day Record</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <div class="js-header"></div>
+<head>
+    <meta charset="utf-8">
+    <title>📝Day Record</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sideNav.css">
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Todo</a>
+        <a href="#">Record</a>
+        <a href="#">Board</a>
+        <a href="#">About</a>
         <div class="js-clock">
-            <h2>????년 ??월 ??일 ?요일</h2>
-            <h3>00:00</h3>
+            <p class="date">????년 ??월 ??일 ?요일</p>
+            <p class="hour">00:00</p>
         </div>
+    </div>
 
-        <script src="/js/headerTemplate.js"></script>
-        <script src="/js/clock.js"></script>
-    </body>
+    <div class="js-header"></div>
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    </div>
+
+    <script src="js/sideNav.js"></script>
+    <script src="js/headerTemplate.js"></script>
+    <script src="js/clock.js"></script>
+</body>
 </html>

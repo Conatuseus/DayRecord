@@ -1,6 +1,6 @@
 const clockContainer = document.querySelector(".js-clock"),
-    dateTitle = clockContainer.querySelector("h2");
-    clockTitle = clockContainer.querySelector("h3");
+    dateTitle = clockContainer.querySelector(".date");
+    clockTitle = clockContainer.querySelector(".hour");
 
 const daysArray = ["일", "월", "화", "수", "목", "금", "토"];
 
