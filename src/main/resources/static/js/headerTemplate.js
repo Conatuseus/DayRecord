@@ -1,8 +1,8 @@
 const headerContainer = document.querySelector(".js-header");
 
 const unLogged =
-    `<header>
-        <a href="/">
+    `<header class="headerTemplate">
+        <a href="/" class="js-home">
             <h1>💻Day Record</h1>
         </a>
         <a href="/login" class="js-login">
@@ -11,12 +11,12 @@ const unLogged =
     </header>`;
 
 const loggedIn =
-    `
-    <header>
-        <h1>💻Day Record</h1>
-        
-    </header>
-    `;
+    `<header class="headerTemplate">
+        <a href="/" class="js-home">
+            <h1>💻Day Record</h1>
+        </a>
+<!--    TODO: 로그아웃 이미지 -->
+    </header>`;
 
 
 function init() {

@@ -2,22 +2,31 @@ body {
     background-color: #696969;
 }
 
-h1 {
-    float: left;
+.headerTemplate {
+    height: 90px;
 }
 
-.js-clock {
-    text-align: center;
-    margin-bottom: 200px;
+.js-home {
+    float: left;
+    color: black;
 }
 
 .js-login {
     float: right;
 }
 
+.js-login > img {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.js-clock {
+    text-align: center;
+}
+
 .js-header {
     border-bottom-style: solid;
     border-bottom-color: #ffffff;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
