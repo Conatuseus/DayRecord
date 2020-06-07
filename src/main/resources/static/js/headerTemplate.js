@@ -6,7 +6,7 @@ const unLogged =
             <h1>💻Day Record</h1>
         </a>
         <a href="/login" class="js-login">
-            <img src="../static/images/kakao_login_large_narrow.png">
+            <img src="/images/kakao_login_large_narrow.png">
         </a>
     </header>`;
 
