@@ -15,7 +15,7 @@ function getDate() {
     const dates = date.getDate();
     const days = calDay(date.getDay());
 
-    dateTitle.innerText = `${years}년 ${months}월 ${dates}일 ${days}요일`;
+    dateTitle.innerText = `${years}년 ${months+1}월 ${dates}일 ${days}요일`;
 }
 
 function getTime() {

@@ -1,12 +1,32 @@
 body {
-    background: #696969;
+    background-color: #696969;
+}
+
+.headerTemplate {
+    height: 90px;
+}
+
+.js-home {
+    float: left;
+    color: black;
+}
+
+.js-login {
+    float: right;
+}
+
+.js-login > img {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 200px;
+    height: 60px;
 }
 
 .js-clock {
     text-align: center;
-    margin-bottom: 200px;
 }
 
-.js-login {
-    text-align: center;
+.js-header {
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
 }
